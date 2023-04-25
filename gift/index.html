@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;1,300&family=MedievalSharp&family=Quintessential&display=swap" rel="stylesheet">
+  </head>
+  <body onload="getLocation()">
+
+<p id="where"></p>
+<p id="Success"></p>
+
+<div id="heart-map">
+    <img id="image2" img src="images/Heart-2.png" draggable="true">
+    <img id="image3" img src="images/Heart-3.png" draggable="true">
+    <img id="image4" img src="images/Heart-4.png" draggable="true">
+    <img id="image5" img src="images/Heart-5.png" draggable="true">
+    <img id="image" img src="images/Heart-1.png" draggable="true">
+    <img id="image9" img src="images/Heart-9.png" draggable="true">
+    <img id="image6" img src="images/Heart-6.png" draggable="true">
+    <img id="image7" img src="images/Heart-7.png" draggable="true">
+    <img id="image8" img src="images/Heart-8.png" draggable="true">
+</div>
+
+<button id="audio" onclick="showAudio()">I did it!</button>
+<div id="messages" style="display: none;">
+<figure>
+    <br><br><br><br><figcaption>Celia</figcaption>
+    <audio
+        controls src="audio/Celia message for Michael.mp3">
+        <a href="audio/Celia message for Michael.mp3"></a>
+    </audio>
+</figure>
+<figure>
+    <figcaption>the frog pond near Pierie's parents' house (from Adam)</figcaption>
+    <audio
+        controls src="audio/Adam frogs.m4a">
+        <a href="audio/Adam frogs.m4a"></a>
+    </audio>
+</figure>
+<figure>
+    <figcaption>local radio</figcaption>
+    <audio
+        controls src="audio/Radio dial.m4a">
+        <a href="audio/Radio dial.m4a"></a>
+    </audio>
+</figure>
+<figure>
+    <figcaption>Gabe</figcaption>
+    <audio
+        controls src="audio/Gabe message for Michael.m4a">
+        <a href="audio/Gabe message for Michael.m4a"></a>
+    </audio>
+</figure>
+<figure>
+    <figcaption>House of Yarga</figcaption>
+    <audio
+        controls src="audio/band intro.m4a">
+        <a href="audio/band intro.m4a"></a>
+    </audio>
+</figure>
+<figure>
+    <figcaption>traffic on the bridge over the Schuylkill near Gray's Ferry skate park</figcaption>
+    <audio
+        controls src="audio/bridge moan.m4a">
+        <a href="audio/bridge moan.m4a"></a>
+    </audio>
+</figure>
+<figure>
+    <figcaption>Juliet</figcaption>
+    <audio
+        controls src="audio/Juliet message for Michael.mp3">
+        <a href="audio/Juliet message for Michael.mp3"></a>
+    </audio>
+</figure>
+<figure>
+    <figcaption>outside the PMA in summertime</figcaption>
+    <audio
+        controls src="audio/outside-PMA.m4a">
+        <a href="audio/outside-PMA.m4a"></a>
+    </audio>
+</figure>
+<figure>
+<figcaption>the South Philly Meadows</figcaption>
+    <audio
+        controls src="audio/TheMeadows.m4a">
+        <a href="audio/TheMeadows.m4a"></a>
+    </audio>
+</figure>
+<div id="explain"><figcaption><div style="font-family: 'Quintessential', cursive;">Hi Michael!</div> from a lot of your friends and Philly, itself, too, on the occasion of you moving away.<br><br>When I send you a letter or a card, part of it is usually a collage. It means a lot to me to infuse paper with my affection. So I thought this time, now that I won't have to send you so much mail, I can give you a way to arrange the pieces, yourself. I'm glad you could put your broken heart back together for a second. It can't be a complete picture, but that's for you to know and us to remind you of!<div style="font-family: 'Quintessential', cursive;">Love,<br>Saski</div></figcaption></div>
+</div>
+
+    <script src="js/main.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,77 @@
+body{
+	background-image: url("images/Michael-skyline1.png");
+	background-size: cover;
+	background-color: #76a0e2;
+	margin-left: 0vw;
+}
+p{
+	color: darkred;
+	font-size: 20px;
+	font-family: 'DM Mono', monospace;
+	margin-left: 3vw;
+}
+figcaption{
+	color: darkslategray;
+	font-size: 20px;
+	font-family: 'DM Mono', monospace;
+	width: 80vw;
+}
+#explain{
+	margin-left: 7vw;
+}
+#image{
+	height: 30vh;
+}
+#image2{
+	height: 32vh;
+}
+#image3{
+	height: 12vh;
+}
+#image4{
+	height: 15vh;
+}
+#image5{
+	height: 10vh;
+}
+#image6{
+	height: 15vh;
+}
+#image7{
+	height: 15vh;
+}
+#image8{
+	height: 10vh;
+}
+#image9{
+	height: 15vh;
+}
+button{
+	background-color: #76a0e2;
+	border: solid;
+	border-width: 2px;
+	border-color: darkred;
+	color: darkred;
+	font-size: 40px;
+	padding: 8px;
+	margin-left: 70vw;
+	cursor: pointer;
+	font-family: 'Quintessential', cursive;
+}
+#heart-map{
+	display: flex;
+	height: 70vh;
+	margin-left: 5vw;
+}
+#audio{
+	position: fixed;
+	bottom: 3vh;
+}
+#messages{
+	position: absolute;
+	top: 0vh;
+	width: 100vw;
+	height: 300vh;
+	background-color: whitesmoke;
+	opacity: 50%;
+}
