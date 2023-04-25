@@ -74,4 +74,5 @@ button{
 	height: 300vh;
 	background-color: whitesmoke;
 	opacity: 50%;
+	z-index: 1001;
 }

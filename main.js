@@ -1,5 +1,3 @@
-/* make images randomly placed when open page*/
-
 const image = document.getElementById('image');
 image.onmousedown = function(event) {
   image.style.position = 'absolute';
