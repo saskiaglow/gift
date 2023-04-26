@@ -53,8 +53,10 @@ button{
 	background-color: #76a0e2;
 	color: darkred;
 	font-size: 40px;
-	padding: 8px;
-	margin-left: 50vw;
+	padding: 6px;
+	margin-left: 60vw;
+	position: fixed;
+	margin-top: 30vh;
 	cursor: pointer;
 	font-family: 'Quintessential', cursive;
 }
