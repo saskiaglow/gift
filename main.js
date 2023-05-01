@@ -517,7 +517,7 @@ function fadeIn(element) {
       clearInterval(timer);
     }
     element.style.opacity = opacity;
-    opacity += 0.1; // Increase the opacity by 0.1 every 100 milliseconds
+    opacity += 0.1; 
   }, 100);
 }
  
